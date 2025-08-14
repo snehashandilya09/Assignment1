@@ -1,0 +1,328 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Marketing Analytics",
+    "type": "text",
+    "category": "Marketing",
+    "level": "Beginner",
+    "duration": "30 min",
+    "description": "Learn how to analyze customer behavior and campaign performance using digital marketing metrics",
+    "content": "Digital Marketing Analytics focuses on measuring, managing, and analyzing marketing performance to maximize effectiveness and optimize return on investment (ROI). Key metrics include website traffic analysis through Google Analytics, conversion rates, customer acquisition cost (CAC), lifetime value (LTV), and attribution modeling. Social media analytics track engagement rates, reach, impressions, and social ROI across platforms like Facebook, Instagram, and LinkedIn. Email marketing analytics measure open rates, click-through rates, and conversion tracking. Search engine optimization (SEO) analytics involve keyword rankings, organic traffic, and backlink analysis. Pay-per-click (PPC) campaigns require monitoring cost-per-click (CPC), quality scores, and ad performance. Understanding customer journey mapping, cohort analysis, and multi-touch attribution helps optimize marketing strategies across all digital channels.",
+    "tags": ["Digital Marketing", "Analytics", "ROI", "Customer Behavior"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 2,
+    "title": "Cybersecurity Fundamentals",
+    "type": "video",
+    "category": "Security",
+    "level": "Intermediate",
+    "duration": "45 min",
+    "description": "Essential cybersecurity concepts and best practices for protecting digital assets",
+    "videoUrl": "https://www.youtube.com/watch?v=hXSFdwIOfnE",
+    "tags": ["Cybersecurity", "Network Security", "Encryption", "Risk Management"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 3,
+    "title": "UX/UI Design Principles Quiz",
+    "type": "quiz",
+    "category": "Design",
+    "level": "Intermediate",
+    "duration": "25 min",
+    "description": "Test your understanding of user experience and interface design fundamentals",
+    "tags": ["UX Design", "UI Design", "User Research", "Prototyping"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What is the primary goal of user experience (UX) design?",
+          "options": [
+            "Making interfaces look beautiful",
+            "Creating meaningful and relevant experiences for users",
+            "Writing efficient code",
+            "Increasing website speed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which design principle emphasizes the most important elements?",
+          "options": [
+            "Contrast",
+            "Alignment",
+            "Hierarchy",
+            "Proximity"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What does 'mobile-first' design approach mean?",
+          "options": [
+            "Only designing for mobile devices",
+            "Starting design process with mobile constraints then scaling up",
+            "Making mobile apps instead of websites",
+            "Using mobile development tools"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which user research method involves observing users in their natural environment?",
+          "options": [
+            "A/B testing",
+            "Surveys",
+            "Ethnographic research",
+            "Focus groups"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the purpose of wireframing in the design process?",
+          "options": [
+            "Creating final visual designs",
+            "Planning page structure and functionality",
+            "Writing user stories",
+            "Conducting user interviews"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 4,
+    "title": "Blockchain and Cryptocurrency Basics",
+    "type": "text",
+    "category": "FinTech",
+    "level": "Intermediate",
+    "duration": "40 min",
+    "description": "Understanding blockchain technology, cryptocurrencies, and decentralized finance",
+    "content": "Blockchain technology is a distributed ledger system that maintains a continuously growing list of records, called blocks, linked and secured using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. This creates an immutable record that cannot be altered without changing all subsequent blocks. Cryptocurrencies like Bitcoin and Ethereum utilize blockchain technology to enable peer-to-peer transactions without intermediaries. Smart contracts are self-executing contracts with terms directly written into code, enabling automated transactions and decentralized applications (DApps). Decentralized Finance (DeFi) platforms provide financial services like lending, borrowing, and trading without traditional banks. Understanding concepts like consensus mechanisms (Proof of Work, Proof of Stake), mining, wallets, and tokenization is essential for navigating the blockchain ecosystem.",
+    "tags": ["Blockchain", "Cryptocurrency", "DeFi", "Smart Contracts"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 5,
+    "title": "Project Management with Agile Methodologies",
+    "type": "video",
+    "category": "Management",
+    "level": "Intermediate",
+    "duration": "55 min",
+    "description": "Master Scrum, Kanban, and other agile frameworks for efficient project delivery",
+    "videoUrl": "https://www.youtube.com/watch?v=Z9QbYZh1YXY",
+    "tags": ["Agile", "Scrum", "Project Management", "Team Leadership"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 6,
+    "title": "Statistical Analysis Skills Test",
+    "type": "quiz",
+    "category": "Statistics",
+    "level": "Advanced",
+    "duration": "35 min",
+    "description": "Comprehensive assessment of statistical concepts, hypothesis testing, and data interpretation",
+    "tags": ["Statistics", "Hypothesis Testing", "Data Analysis", "Research"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What is the purpose of a p-value in hypothesis testing?",
+          "options": [
+            "To measure effect size",
+            "To determine statistical significance",
+            "To calculate confidence intervals",
+            "To measure correlation strength"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which measure of central tendency is most affected by outliers?",
+          "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Range"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What does a correlation coefficient of -0.85 indicate?",
+          "options": [
+            "Strong positive relationship",
+            "Weak negative relationship", 
+            "Strong negative relationship",
+            "No relationship"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "In A/B testing, what is a Type I error?",
+          "options": [
+            "Failing to detect a real effect",
+            "Detecting an effect that doesn't exist",
+            "Using wrong sample size",
+            "Incorrect randomization"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 7,
+    "title": "Sustainable Business Practices",
+    "type": "text",
+    "category": "Sustainability",
+    "level": "Beginner",
+    "duration": "35 min",
+    "description": "Learn about environmental responsibility and sustainable business strategies",
+    "content": "Sustainable business practices involve conducting operations in a way that meets present needs without compromising the ability of future generations to meet their own needs. This encompasses environmental, social, and economic dimensions known as the Triple Bottom Line: People, Planet, and Profit. Environmental sustainability includes reducing carbon footprint, minimizing waste, using renewable energy, and implementing circular economy principles. Social sustainability focuses on fair labor practices, community engagement, diversity and inclusion, and ethical supply chain management. Economic sustainability ensures long-term viability through responsible resource use and value creation. Key frameworks include ESG (Environmental, Social, Governance) criteria, UN Sustainable Development Goals, and B-Corporation certification. Companies implementing sustainable practices often see benefits including cost savings, improved brand reputation, better risk management, and increased customer loyalty.",
+    "tags": ["Sustainability", "ESG", "Corporate Responsibility", "Green Business"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 8,
+    "title": "Content Marketing Strategy",
+    "type": "video",
+    "category": "Marketing",
+    "level": "Intermediate",
+    "duration": "50 min",
+    "description": "Create compelling content that engages audiences and drives business results",
+    "videoUrl": "https://www.youtube.com/watch?v=eWEkfflYzXE",
+    "tags": ["Content Marketing", "Strategy", "Audience Engagement", "Brand Building"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 9,
+    "title": "Advanced Analytics Assessment",
+    "type": "quiz",
+    "category": "Data Analytics",
+    "level": "Advanced",
+    "duration": "30 min",
+    "description": "Comprehensive evaluation of advanced analytics concepts and methodologies",
+    "tags": ["Analytics", "Statistics", "Business Intelligence", "KPIs"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What is the primary purpose of A/B testing in data analytics?",
+          "options": [
+            "To compare two versions of something to determine which performs better",
+            "To test database performance",
+            "To validate data quality",
+            "To create backup systems"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which statistical measure is most appropriate for skewed data distributions?",
+          "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Standard deviation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What does ETL stand for in data processing?",
+          "options": [
+            "Extract, Transform, Load",
+            "Evaluate, Test, Launch",
+            "Export, Transfer, Link",
+            "Execute, Track, Log"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which technique is used to handle missing data in datasets?",
+          "options": [
+            "Data imputation",
+            "Data encryption",
+            "Data compression",
+            "Data normalization"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 10,
+    "title": "Cloud Computing and DevOps Essentials",
+    "type": "text",
+    "category": "Cloud Technology",
+    "level": "Advanced",
+    "duration": "75 min",
+    "description": "Master cloud platforms, containerization, and DevOps practices for modern software delivery",
+    "content": "Cloud Computing and DevOps have revolutionized software development and deployment practices. Major cloud platforms like AWS, Azure, and Google Cloud provide scalable infrastructure through Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) models. Containerization with Docker enables consistent application packaging and deployment across environments. Kubernetes orchestrates containerized applications at scale with features like auto-scaling, load balancing, and service discovery. DevOps practices emphasize collaboration between development and operations teams through continuous integration (CI) and continuous deployment (CD) pipelines. Infrastructure as Code (IaC) tools like Terraform and CloudFormation enable version-controlled infrastructure management. Monitoring and observability through tools like Prometheus, Grafana, and ELK stack ensure application reliability and performance optimization.",
+    "tags": ["Cloud Computing", "DevOps", "Docker", "Kubernetes", "CI/CD"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 11,
+    "title": "Data Visualization with D3.js",
+    "type": "video",
+    "category": "Data Visualization",
+    "level": "Advanced",
+    "duration": "60 min",
+    "description": "Create interactive and dynamic data visualizations using D3.js library",
+    "videoUrl": "https://www.youtube.com/watch?v=C4t6qfHZ6Tw",
+    "tags": ["D3.js", "Data Visualization", "JavaScript", "Interactive Charts"],
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  },
+  {
+    "id": 12,
+    "title": "Cloud Architecture Assessment",
+    "type": "quiz",
+    "category": "Cloud Technology",
+    "level": "Advanced",
+    "duration": "35 min",
+    "description": "Comprehensive evaluation of cloud computing concepts and architectural patterns",
+    "tags": ["Cloud", "Architecture", "Scalability", "Microservices"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What is the main advantage of microservices architecture?",
+          "options": [
+            "Easier deployment",
+            "Better scalability and maintainability",
+            "Lower costs",
+            "Simpler development"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which cloud service model provides the most control over the underlying infrastructure?",
+          "options": [
+            "SaaS",
+            "PaaS",
+            "IaaS",
+            "FaaS"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the primary purpose of container orchestration?",
+          "options": [
+            "Managing and scaling containerized applications",
+            "Creating container images",
+            "Securing containers",
+            "Monitoring container performance"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which design pattern is commonly used to handle failures in distributed systems?",
+          "options": [
+            "Circuit Breaker",
+            "Observer",
+            "Singleton",
+            "Factory"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    "createdAt": "2025-08-13T10:13:42.949Z"
+  }
+]

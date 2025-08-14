@@ -1,0 +1,1677 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Full-Stack Web Development Mastery",
+    "type": "course",
+    "category": "Web Development",
+    "level": "Beginner to Advanced",
+    "duration": "12 weeks",
+    "estimatedHours": 120,
+    "description": "Master modern web development from frontend fundamentals to backend APIs, databases, and deployment. Build 5 real-world projects including an e-commerce platform.",
+    "instructor": "Sarah Chen",
+    "instructorBio": "Senior Full-Stack Developer at Google with 8+ years experience building scalable web applications",
+    "rating": 4.9,
+    "enrollments": 15420,
+    "tags": ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB", "Full-Stack"],
+    "prerequisites": ["Basic computer literacy", "Problem-solving mindset"],
+    "learningOutcomes": [
+      "Build responsive websites using HTML5, CSS3, and modern JavaScript",
+      "Create interactive user interfaces with React.js",
+      "Develop RESTful APIs using Node.js and Express",
+      "Design and implement databases with MongoDB",
+      "Deploy applications to cloud platforms (AWS, Netlify)",
+      "Implement authentication and security best practices"
+    ],
+    "courseStructure": {
+      "totalSections": 8,
+      "totalLessons": 64,
+      "totalQuizzes": 16,
+      "totalProjects": 5,
+      "progressTracking": true
+    },
+    "sections": [
+      {
+        "id": "section1",
+        "title": "Frontend Fundamentals",
+        "description": "Master HTML, CSS, and vanilla JavaScript",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson1_1",
+            "title": "HTML5 Semantic Structure",
+            "type": "video",
+            "duration": "25 min",
+            "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+            "description": "Learn modern HTML5 semantic elements and document structure",
+            "resources": ["HTML5 Cheat Sheet", "Code Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_2",
+            "title": "CSS Grid and Flexbox Mastery",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=9zBsdzdE4sM",
+            "description": "Master modern CSS layout techniques",
+            "resources": ["Grid vs Flexbox Guide", "Interactive Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_3",
+            "title": "Responsive Design Principles",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=srvUrASNj0s",
+            "description": "Create websites that work on all devices",
+            "resources": ["Breakpoint Guide", "Media Query Examples"],
+            "completed": false
+          },
+          {
+            "id": "quiz1_1",
+            "title": "HTML & CSS Fundamentals Quiz",
+            "type": "quiz",
+            "duration": "15 min",
+            "description": "Test your understanding of HTML and CSS basics",
+            "questions": [
+              {
+                "question": "Which CSS property is used to create a flexbox container?",
+                "options": ["display: flex", "flex-direction: row", "justify-content: center", "align-items: center"],
+                "correct": 0,
+                "explanation": "display: flex creates a flex container, enabling flexbox layout for its children."
+              },
+              {
+                "question": "What is the correct HTML5 semantic element for navigation?",
+                "options": ["<div class='nav'>", "<navigation>", "<nav>", "<menu>"],
+                "correct": 2,
+                "explanation": "The <nav> element represents navigation links in HTML5."
+              },
+              {
+                "question": "Which CSS Grid property defines the size of grid tracks?",
+                "options": ["grid-template", "grid-template-columns", "grid-gap", "grid-area"],
+                "correct": 1,
+                "explanation": "grid-template-columns defines the width of grid columns."
+              }
+            ],
+            "completed": false
+          },
+          {
+            "id": "project1_1",
+            "title": "Portfolio Website Project",
+            "type": "project",
+            "duration": "3 hours",
+            "description": "Build a responsive portfolio website showcasing your skills",
+            "requirements": [
+              "Use semantic HTML5 elements",
+              "Implement CSS Grid and Flexbox",
+              "Make it fully responsive",
+              "Include a contact form",
+              "Add smooth scroll navigation"
+            ],
+            "deliverables": ["Live website link", "Source code repository"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section2", 
+        "title": "JavaScript Programming",
+        "description": "From basics to advanced JavaScript concepts",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson2_1",
+            "title": "JavaScript Fundamentals & ES6+",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
+            "description": "Variables, functions, arrow functions, destructuring, and modules",
+            "resources": ["ES6 Feature Guide", "Code Playground"],
+            "completed": false
+          },
+          {
+            "id": "lesson2_2",
+            "title": "DOM Manipulation & Events",
+            "type": "video", 
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=0ik6X4DJKCc",
+            "description": "Interactive web pages with DOM manipulation and event handling",
+            "resources": ["DOM Methods Reference", "Event Types Chart"],
+            "completed": false
+          },
+          {
+            "id": "lesson2_3",
+            "title": "Asynchronous JavaScript & APIs",
+            "type": "video",
+            "duration": "45 min", 
+            "videoUrl": "https://www.youtube.com/watch?v=PoRJizFvM7s",
+            "description": "Promises, async/await, and working with REST APIs",
+            "resources": ["API Testing Tools", "Promise Cheat Sheet"],
+            "completed": false
+          },
+          {
+            "id": "quiz2_1",
+            "title": "JavaScript Concepts Quiz",
+            "type": "quiz",
+            "duration": "20 min",
+            "description": "Test your JavaScript knowledge",
+            "questions": [
+              {
+                "question": "What does the 'await' keyword do in JavaScript?",
+                "options": ["Stops execution forever", "Waits for a Promise to resolve", "Creates a new Promise", "Handles errors"],
+                "correct": 1,
+                "explanation": "await pauses execution until the Promise resolves, returning the resolved value."
+              },
+              {
+                "question": "Which method adds an event listener to an element?",
+                "options": ["element.onClick()", "element.addEventListener()", "element.attachEvent()", "element.on()"],
+                "correct": 1,
+                "explanation": "addEventListener() is the standard method to attach event handlers to DOM elements."
+              }
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section3",
+        "title": "React.js Frontend Framework", 
+        "description": "Build modern UIs with React",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson3_1",
+            "title": "React Components & JSX",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+            "description": "Components, props, state, and JSX syntax",
+            "resources": ["React DevTools", "Component Patterns Guide"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_2", 
+            "title": "Hooks & State Management",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=O6P86uwfdR0",
+            "description": "useState, useEffect, and custom hooks",
+            "resources": ["Hooks API Reference", "State Management Patterns"],
+            "completed": false
+          },
+          {
+            "id": "project3_1",
+            "title": "React Todo App with Local Storage",
+            "type": "project", 
+            "duration": "4 hours",
+            "description": "Build a feature-rich todo application",
+            "requirements": [
+              "Add, edit, delete todos",
+              "Mark todos as complete",
+              "Filter todos (all, active, completed)",
+              "Persist data in localStorage",
+              "Responsive design"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section4",
+        "title": "Backend Development with Node.js",
+        "description": "Server-side programming and APIs",
+        "duration": "2 weeks", 
+        "lessons": [
+          {
+            "id": "lesson4_1",
+            "title": "Node.js & Express.js Fundamentals",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+            "description": "Server setup, routing, and middleware",
+            "resources": ["Express.js Documentation", "Middleware Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_2",
+            "title": "RESTful API Design",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=0oXYLzuucwE",
+            "description": "REST principles, HTTP methods, and API best practices",
+            "resources": ["REST API Guidelines", "Postman Collection"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_3",
+            "title": "Authentication & Security",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+            "description": "JWT tokens, password hashing, and security practices",
+            "resources": ["JWT Debugger", "Security Checklist"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section5",
+        "title": "Database Design & MongoDB",
+        "description": "Data modeling and database operations",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson5_1",
+            "title": "MongoDB Fundamentals",
+            "type": "video", 
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=2QQGWYe7IDU",
+            "description": "NoSQL concepts, collections, and CRUD operations",
+            "resources": ["MongoDB Atlas Setup", "Query Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson5_2",
+            "title": "Mongoose ODM & Data Modeling",
+            "type": "video",
+            "duration": "40 min", 
+            "videoUrl": "https://www.youtube.com/watch?v=DZBGEVgL2eE",
+            "description": "Schema design, validation, and relationships",
+            "resources": ["Mongoose Documentation", "Schema Examples"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section6",
+        "title": "Full-Stack Integration",
+        "description": "Connect frontend and backend",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson6_1",
+            "title": "Frontend-Backend Communication",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=7YcW25PHnAA",
+            "description": "Axios, error handling, and state management",
+            "resources": ["API Integration Patterns", "Error Handling Guide"],
+            "completed": false
+          },
+          {
+            "id": "project6_1",
+            "title": "Full-Stack Blog Application",
+            "type": "project",
+            "duration": "6 hours",
+            "description": "Build a complete blog with authentication",
+            "requirements": [
+              "User registration and login",
+              "Create, read, update, delete posts",
+              "Comment system",
+              "User profiles",
+              "Responsive design"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section7",
+        "title": "Testing & Quality Assurance",
+        "description": "Ensure code quality and reliability",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "id": "lesson7_1",
+            "title": "Unit Testing with Jest",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=7r4xVDI2vho",
+            "description": "Writing and running unit tests",
+            "resources": ["Jest Documentation", "Testing Patterns"],
+            "completed": false
+          },
+          {
+            "id": "lesson7_2",
+            "title": "Integration Testing",
+            "type": "video",
+            "duration": "25 min",
+            "videoUrl": "https://www.youtube.com/watch?v=r9HdJ8P6GQI",
+            "description": "API testing and end-to-end testing",
+            "resources": ["Testing Tools Comparison", "CI/CD Basics"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section8",
+        "title": "Deployment & Production",
+        "description": "Deploy applications to the cloud",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "id": "lesson8_1",
+            "title": "Frontend Deployment (Netlify/Vercel)",
+            "type": "video",
+            "duration": "25 min",
+            "videoUrl": "https://www.youtube.com/watch?v=bjVUqvcCnxM",
+            "description": "Deploy React apps to modern hosting platforms",
+            "resources": ["Deployment Checklist", "Domain Setup Guide"],
+            "completed": false
+          },
+          {
+            "id": "lesson8_2",
+            "title": "Backend Deployment (Heroku/Railway)",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=MxfxiIKdIyI",
+            "description": "Deploy Node.js APIs with database connections",
+            "resources": ["Environment Variables Guide", "Production Optimization"],
+            "completed": false
+          },
+          {
+            "id": "project8_1",
+            "title": "E-commerce Platform Capstone",
+            "type": "project",
+            "duration": "12 hours",
+            "description": "Build and deploy a complete e-commerce solution",
+            "requirements": [
+              "Product catalog with search and filters",
+              "Shopping cart and checkout process",
+              "User authentication and profiles",
+              "Admin dashboard for product management",
+              "Payment integration (Stripe)",
+              "Email notifications",
+              "Mobile-responsive design",
+              "Deployed to production"
+            ],
+            "completed": false
+          }
+        ]
+      }
+    ],
+    "finalAssessment": {
+      "title": "Full-Stack Developer Certification",
+      "type": "comprehensive_exam",
+      "duration": "2 hours",
+      "description": "Comprehensive assessment covering all course topics",
+      "passingScore": 80,
+      "questions": 50,
+      "completed": false
+    },
+    "certificate": {
+      "available": true,
+      "requirements": ["Complete all sections", "Pass final assessment", "Submit capstone project"],
+      "credential": "Full-Stack Web Development Certificate"
+    },
+    "createdAt": "2025-08-13T00:00:00.000Z",
+    "updatedAt": "2025-08-13T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Advanced Python Programming & Data Science",
+    "type": "course",
+    "category": "Data Science",
+    "level": "Intermediate to Advanced",
+    "duration": "10 weeks",
+    "estimatedHours": 100,
+    "description": "Master Python for data science, machine learning, and automation. Build real-world projects including predictive models and data visualization dashboards.",
+    "instructor": "Dr. Michael Rodriguez",
+    "instructorBio": "Data Science Lead at Netflix, PhD in Computer Science from MIT",
+    "rating": 4.8,
+    "enrollments": 12850,
+    "tags": ["Python", "Data Science", "Machine Learning", "Pandas", "NumPy", "Matplotlib"],
+    "prerequisites": ["Basic programming knowledge", "High school mathematics"],
+    "learningOutcomes": [
+      "Master advanced Python programming concepts",
+      "Analyze and visualize data using Pandas and Matplotlib",
+      "Build machine learning models with Scikit-learn",
+      "Create interactive dashboards with Streamlit",
+      "Automate data workflows and web scraping",
+      "Deploy ML models to production"
+    ],
+    "courseStructure": {
+      "totalSections": 6,
+      "totalLessons": 48,
+      "totalQuizzes": 12,
+      "totalProjects": 4,
+      "progressTracking": true
+    },
+    "sections": [
+      {
+        "id": "section1",
+        "title": "Advanced Python Programming",
+        "description": "Master Python's advanced features and best practices",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson1_1",
+            "title": "Object-Oriented Programming Mastery",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=Ej_02ICOIgs",
+            "description": "Classes, inheritance, polymorphism, and design patterns",
+            "resources": ["OOP Design Patterns", "Code Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_2",
+            "title": "Decorators and Context Managers",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=FsAPt_9Bf3U",
+            "description": "Advanced Python features for clean code",
+            "resources": ["Decorator Patterns", "Context Manager Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_3",
+            "title": "Generators and Iterators",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=bD05uGo_sVI",
+            "description": "Memory-efficient programming with generators",
+            "resources": ["Generator Examples", "Performance Comparisons"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section2",
+        "title": "Data Analysis with Pandas",
+        "description": "Master data manipulation and analysis",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson2_1",
+            "title": "Pandas DataFrames and Series",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "description": "Data structures and basic operations",
+            "resources": ["Pandas Cheat Sheet", "Sample Datasets"],
+            "completed": false
+          },
+          {
+            "id": "lesson2_2",
+            "title": "Data Cleaning and Transformation",
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=bDhvCp3_lYw",
+            "description": "Handle missing data, outliers, and data types",
+            "resources": ["Data Cleaning Checklist", "Real-world Datasets"],
+            "completed": false
+          },
+          {
+            "id": "project2_1",
+            "title": "COVID-19 Data Analysis Project",
+            "type": "project",
+            "duration": "5 hours",
+            "description": "Analyze global COVID-19 trends and create visualizations",
+            "requirements": [
+              "Load and clean COVID-19 dataset",
+              "Perform exploratory data analysis",
+              "Create time series visualizations",
+              "Generate insights and summary report"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section3",
+        "title": "Machine Learning Fundamentals",
+        "description": "Build predictive models with Scikit-learn",
+        "duration": "2.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson3_1",
+            "title": "Supervised Learning Algorithms",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=7eh4d6sabA0",
+            "description": "Linear regression, decision trees, and random forests",
+            "resources": ["Algorithm Comparison Chart", "Model Selection Guide"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_2",
+            "title": "Model Evaluation and Validation",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=fSytzGwwBVw",
+            "description": "Cross-validation, metrics, and hyperparameter tuning",
+            "resources": ["Evaluation Metrics Guide", "Validation Strategies"],
+            "completed": false
+          },
+          {
+            "id": "project3_1",
+            "title": "House Price Prediction Model",
+            "type": "project",
+            "duration": "6 hours",
+            "description": "Build a machine learning model to predict house prices",
+            "requirements": [
+              "Feature engineering and selection",
+              "Train multiple models and compare performance",
+              "Implement cross-validation",
+              "Create prediction interface"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section4",
+        "title": "Data Visualization Mastery",
+        "description": "Create compelling visualizations and dashboards",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson4_1",
+            "title": "Advanced Matplotlib and Seaborn",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=UO98lJQ3QGI",
+            "description": "Statistical plots and customization techniques",
+            "resources": ["Visualization Gallery", "Color Palettes Guide"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_2",
+            "title": "Interactive Dashboards with Streamlit",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=ZZ4B0QUHuNc",
+            "description": "Build web applications for data science",
+            "resources": ["Streamlit Components", "Dashboard Examples"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section5",
+        "title": "Web Scraping and Automation",
+        "description": "Automate data collection and workflows",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson5_1",
+            "title": "Web Scraping with Beautiful Soup",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=87Gx3U0BDlo",
+            "description": "Extract data from websites responsibly",
+            "resources": ["Scraping Ethics Guide", "Legal Considerations"],
+            "completed": false
+          },
+          {
+            "id": "lesson5_2",
+            "title": "Task Automation and Scheduling",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=s8XjEuplx_U",
+            "description": "Automate repetitive tasks with Python",
+            "resources": ["Automation Scripts", "Scheduling Tools"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section6",
+        "title": "Production Deployment",
+        "description": "Deploy data science applications",
+        "duration": "0.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson6_1",
+            "title": "Model Deployment Strategies",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=Q7_rU7jm1LM",
+            "description": "Deploy ML models using Flask and cloud services",
+            "resources": ["Deployment Checklist", "Cloud Platforms Comparison"],
+            "completed": false
+          },
+          {
+            "id": "project6_1",
+            "title": "Stock Market Analysis Dashboard",
+            "type": "project",
+            "duration": "8 hours",
+            "description": "Build a comprehensive financial data analysis platform",
+            "requirements": [
+              "Real-time stock data collection",
+              "Technical analysis indicators",
+              "Interactive charts and dashboards",
+              "Predictive modeling for stock prices",
+              "Deploy to cloud platform"
+            ],
+            "completed": false
+          }
+        ]
+      }
+    ],
+    "finalAssessment": {
+      "title": "Data Science Professional Certification",
+      "type": "portfolio_review",
+      "duration": "Project-based",
+      "description": "Comprehensive portfolio review and technical interview",
+      "requirements": ["Complete all projects", "Code review session", "Present capstone project"],
+      "completed": false
+    },
+    "certificate": {
+      "available": true,
+      "requirements": ["Complete all sections", "Submit portfolio", "Pass technical review"],
+      "credential": "Advanced Python & Data Science Certificate"
+    },
+    "createdAt": "2025-08-13T00:00:00.000Z",
+    "updatedAt": "2025-08-13T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "DevOps Engineering & Cloud Infrastructure",
+    "type": "course",
+    "category": "DevOps",
+    "level": "Intermediate to Advanced",
+    "duration": "8 weeks",
+    "estimatedHours": 80,
+    "description": "Master modern DevOps practices, CI/CD pipelines, containerization, and cloud infrastructure. Learn to deploy and scale applications using industry-standard tools.",
+    "instructor": "Alex Thompson",
+    "instructorBio": "Senior DevOps Engineer at Google, AWS Certified Solutions Architect",
+    "rating": 4.9,
+    "enrollments": 8750,
+    "tags": ["Docker", "Kubernetes", "AWS", "CI/CD", "Terraform", "Jenkins"],
+    "prerequisites": ["Basic Linux knowledge", "Understanding of web applications", "Basic networking concepts"],
+    "learningOutcomes": [
+      "Master containerization with Docker and Kubernetes",
+      "Build automated CI/CD pipelines",
+      "Deploy applications to AWS cloud",
+      "Implement infrastructure as code with Terraform",
+      "Monitor and scale production systems",
+      "Implement security best practices in DevOps"
+    ],
+    "courseStructure": {
+      "totalSections": 6,
+      "totalLessons": 42,
+      "totalQuizzes": 10,
+      "totalProjects": 5,
+      "progressTracking": true
+    },
+    "sections": [
+      {
+        "id": "section1",
+        "title": "DevOps Fundamentals & Linux",
+        "description": "Essential DevOps concepts and Linux administration",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson1_1",
+            "title": "DevOps Culture and Practices",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+            "description": "Understanding DevOps philosophy and transformation",
+            "resources": ["DevOps Methodology Guide", "Culture Change Strategies"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_2",
+            "title": "Linux Command Line Mastery",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+            "description": "Essential Linux commands for DevOps engineers",
+            "resources": ["Linux Command Reference", "Shell Scripting Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_3",
+            "title": "Shell Scripting and Automation",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=v-F3YLd6oMw",
+            "description": "Automate tasks with Bash scripting",
+            "resources": ["Scripting Best Practices", "Automation Templates"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section2",
+        "title": "Containerization with Docker",
+        "description": "Master Docker for application packaging and deployment",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson2_1",
+            "title": "Docker Fundamentals",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "description": "Containers, images, and Docker architecture",
+            "resources": ["Docker Installation Guide", "Container vs VM Comparison"],
+            "completed": false
+          },
+          {
+            "id": "lesson2_2",
+            "title": "Dockerfile Best Practices",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=JofsaZ3H1qM",
+            "description": "Build efficient and secure Docker images",
+            "resources": ["Dockerfile Templates", "Security Checklist"],
+            "completed": false
+          },
+          {
+            "id": "lesson2_3",
+            "title": "Docker Compose for Multi-Service Apps",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
+            "description": "Orchestrate multiple containers with Docker Compose",
+            "resources": ["Compose File Examples", "Service Dependencies"],
+            "completed": false
+          },
+          {
+            "id": "project2_1",
+            "title": "Containerize Full-Stack Application",
+            "type": "project",
+            "duration": "4 hours",
+            "description": "Dockerize a complete web application with database",
+            "requirements": [
+              "Create Dockerfiles for frontend and backend",
+              "Set up Docker Compose configuration",
+              "Implement volume persistence",
+              "Configure networking between services"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section3",
+        "title": "CI/CD Pipeline Automation",
+        "description": "Build automated deployment pipelines",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson3_1",
+            "title": "Git Workflows and Branching Strategies",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=1SXpE08hvGs",
+            "description": "GitFlow, feature branches, and collaboration",
+            "resources": ["Git Workflow Diagrams", "Branching Strategies"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_2",
+            "title": "Jenkins Pipeline Development",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=pMO26j2OUME",
+            "description": "Build automated CI/CD pipelines with Jenkins",
+            "resources": ["Pipeline Templates", "Plugin Configuration"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_3",
+            "title": "GitHub Actions for Modern CI/CD",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+            "description": "Cloud-native CI/CD with GitHub Actions",
+            "resources": ["Action Workflows", "Marketplace Actions"],
+            "completed": false
+          },
+          {
+            "id": "project3_1",
+            "title": "Complete CI/CD Pipeline",
+            "type": "project",
+            "duration": "6 hours",
+            "description": "Build end-to-end automated deployment pipeline",
+            "requirements": [
+              "Set up automated testing on pull requests",
+              "Implement code quality checks",
+              "Configure automated deployment to staging",
+              "Set up production deployment with approval gates"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section4",
+        "title": "Kubernetes Orchestration",
+        "description": "Container orchestration and management at scale",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson4_1",
+            "title": "Kubernetes Architecture and Concepts",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "description": "Pods, services, deployments, and cluster architecture",
+            "resources": ["K8s Architecture Diagrams", "Component Overview"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_2",
+            "title": "Kubernetes Deployments and Services",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=cC46cg5FFAM",
+            "description": "Deploy and expose applications in Kubernetes",
+            "resources": ["YAML Templates", "Service Types Guide"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_3",
+            "title": "ConfigMaps, Secrets, and Persistent Volumes",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=FAnQTgr04mU",
+            "description": "Configuration management and data persistence",
+            "resources": ["Security Best Practices", "Storage Classes"],
+            "completed": false
+          },
+          {
+            "id": "project4_1",
+            "title": "Kubernetes Application Deployment",
+            "type": "project",
+            "duration": "5 hours",
+            "description": "Deploy microservices application to Kubernetes",
+            "requirements": [
+              "Create Kubernetes manifests for all services",
+              "Implement service discovery and load balancing",
+              "Configure persistent storage",
+              "Set up monitoring and health checks"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section5",
+        "title": "Infrastructure as Code & Cloud",
+        "description": "Automate infrastructure provisioning with AWS and Terraform",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson5_1",
+            "title": "AWS Core Services Overview",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=IT1X42D1KeA",
+            "description": "EC2, VPC, S3, RDS, and IAM fundamentals",
+            "resources": ["AWS Service Comparison", "Free Tier Guide"],
+            "completed": false
+          },
+          {
+            "id": "lesson5_2",
+            "title": "Terraform Infrastructure Automation",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=l5k1ai_GBDE",
+            "description": "Infrastructure as Code with Terraform",
+            "resources": ["Terraform Templates", "State Management"],
+            "completed": false
+          },
+          {
+            "id": "project5_1",
+            "title": "AWS Infrastructure with Terraform",
+            "type": "project",
+            "duration": "6 hours",
+            "description": "Provision complete AWS infrastructure using Terraform",
+            "requirements": [
+              "Create VPC with public and private subnets",
+              "Deploy EC2 instances with auto-scaling",
+              "Set up RDS database with backups",
+              "Configure load balancer and security groups"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section6",
+        "title": "Monitoring and Production Operations",
+        "description": "Monitor, scale, and maintain production systems",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "id": "lesson6_1",
+            "title": "Application and Infrastructure Monitoring",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=hePmkqIAJGE",
+            "description": "Prometheus, Grafana, and log aggregation",
+            "resources": ["Monitoring Stack Setup", "Alert Rules"],
+            "completed": false
+          },
+          {
+            "id": "lesson6_2",
+            "title": "Security and Compliance in DevOps",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=nrhxNNH5lt0",
+            "description": "DevSecOps practices and compliance automation",
+            "resources": ["Security Checklist", "Compliance Frameworks"],
+            "completed": false
+          },
+          {
+            "id": "project6_1",
+            "title": "Production-Ready Infrastructure",
+            "type": "project",
+            "duration": "8 hours",
+            "description": "Deploy fully monitored, scalable production system",
+            "requirements": [
+              "Set up complete monitoring stack",
+              "Implement automated scaling policies",
+              "Configure backup and disaster recovery",
+              "Document operational procedures",
+              "Perform load testing and optimization"
+            ],
+            "completed": false
+          }
+        ]
+      }
+    ],
+    "finalAssessment": {
+      "title": "DevOps Engineer Certification",
+      "type": "practical_exam",
+      "duration": "4 hours",
+      "description": "Hands-on infrastructure and deployment challenge",
+      "requirements": ["Complete infrastructure setup", "Debug production issues", "Implement monitoring solution"],
+      "completed": false
+    },
+    "certificate": {
+      "available": true,
+      "requirements": ["Complete all projects", "Pass practical exam", "Demonstrate operational knowledge"],
+      "credential": "Professional DevOps Engineer Certificate"
+    },
+    "createdAt": "2025-08-13T00:00:00.000Z",
+    "updatedAt": "2025-08-13T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Mobile App Development with React Native",
+    "type": "course",
+    "category": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "10 weeks",
+    "estimatedHours": 90,
+    "description": "Build cross-platform mobile applications with React Native. Create native iOS and Android apps with a single codebase, including navigation, state management, and native integrations.",
+    "instructor": "Maria Garcia",
+    "instructorBio": "Senior Mobile Developer at Spotify, React Native Core Contributor",
+    "rating": 4.7,
+    "enrollments": 6200,
+    "tags": ["React Native", "Mobile", "iOS", "Android", "JavaScript", "Redux"],
+    "prerequisites": ["JavaScript fundamentals", "Basic React knowledge", "Understanding of mobile app concepts"],
+    "learningOutcomes": [
+      "Build cross-platform mobile apps with React Native",
+      "Implement native navigation and user interfaces",
+      "Integrate device features like camera and GPS",
+      "Manage app state with Redux and Context API",
+      "Publish apps to App Store and Google Play",
+      "Implement push notifications and offline functionality"
+    ],
+    "courseStructure": {
+      "totalSections": 7,
+      "totalLessons": 56,
+      "totalQuizzes": 14,
+      "totalProjects": 4,
+      "progressTracking": true
+    },
+    "sections": [
+      {
+        "id": "section1",
+        "title": "React Native Fundamentals",
+        "description": "Getting started with React Native development",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson1_1",
+            "title": "React Native Setup and Environment",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+            "description": "Development environment setup for iOS and Android",
+            "resources": ["Setup Guide", "Troubleshooting Common Issues"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_2",
+            "title": "Core Components and Layout",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=ur6I5m2nTvk",
+            "description": "Views, Text, Images, and Flexbox layout",
+            "resources": ["Component Reference", "Layout Examples"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_3",
+            "title": "Styling and Responsive Design",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=bQVKpVcVlSo",
+            "description": "StyleSheet, dimensions, and responsive layouts",
+            "resources": ["Styling Guide", "Design Patterns"],
+            "completed": false
+          },
+          {
+            "id": "lesson1_4",
+            "title": "Handling User Input and Events",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=1xs1YnEOsD4",
+            "description": "TextInput, TouchableOpacity, and gesture handling",
+            "resources": ["Input Components", "Event Handling"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section2",
+        "title": "Navigation and Routing",
+        "description": "Implement navigation between screens",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson2_1",
+            "title": "React Navigation Fundamentals",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=nQVCkqvU1uE",
+            "description": "Stack, tab, and drawer navigation",
+            "resources": ["Navigation Patterns", "Configuration Options"],
+            "completed": false
+          },
+          {
+            "id": "lesson2_2",
+            "title": "Passing Data Between Screens",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=s2HdKwpwpCg",
+            "description": "Route parameters and navigation state",
+            "resources": ["Parameter Passing", "State Management"],
+            "completed": false
+          },
+          {
+            "id": "project2_1",
+            "title": "Multi-Screen Todo App",
+            "type": "project",
+            "duration": "5 hours",
+            "description": "Build a todo app with multiple screens and navigation",
+            "requirements": [
+              "Implement stack navigation between screens",
+              "Create todo list and detail screens",
+              "Add tab navigation for categories",
+              "Implement data persistence"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section3",
+        "title": "State Management",
+        "description": "Manage complex application state",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson3_1",
+            "title": "React Hooks in React Native",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dpw9EHDh2bM",
+            "description": "useState, useEffect, and custom hooks",
+            "resources": ["Hooks Patterns", "Performance Tips"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_2",
+            "title": "Context API for Global State",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=35lXWvCuM8o",
+            "description": "Manage app-wide state with Context",
+            "resources": ["Context Patterns", "Provider Setup"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_3",
+            "title": "Redux for Complex State Management",
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=93p3LxR9xfM",
+            "description": "Redux setup and integration with React Native",
+            "resources": ["Redux Toolkit", "Async Actions"],
+            "completed": false
+          },
+          {
+            "id": "lesson3_4",
+            "title": "Data Persistence and AsyncStorage",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=Es4onHN8M_4",
+            "description": "Local storage and data persistence",
+            "resources": ["Storage Solutions", "Data Migration"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section4",
+        "title": "Native Device Features",
+        "description": "Integrate camera, GPS, and other device features",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "id": "lesson4_1",
+            "title": "Camera and Image Handling",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=FuYo86vbqMs",
+            "description": "Camera access, image picker, and photo manipulation",
+            "resources": ["Image Libraries", "Permission Handling"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_2",
+            "title": "Location Services and Maps",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=qlELLikT3FU",
+            "description": "GPS, geolocation, and map integration",
+            "resources": ["Map Components", "Location Permissions"],
+            "completed": false
+          },
+          {
+            "id": "lesson4_3",
+            "title": "Device Sensors and Accelerometer",
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=TE4jPHqkj0c",
+            "description": "Access device sensors and motion detection",
+            "resources": ["Sensor APIs", "Motion Patterns"],
+            "completed": false
+          },
+          {
+            "id": "project4_1",
+            "title": "Photo Sharing App with Geolocation",
+            "type": "project",
+            "duration": "6 hours",
+            "description": "Build an Instagram-like app with camera and location features",
+            "requirements": [
+              "Implement camera functionality for photo capture",
+              "Add geolocation tagging to photos",
+              "Create photo feed with map integration",
+              "Implement photo filters and editing"
+            ],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section5",
+        "title": "API Integration and Networking",
+        "description": "Connect to backend services and APIs",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson5_1",
+            "title": "HTTP Requests and Fetch API",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=cuEtnrL9-H0",
+            "description": "Making API calls and handling responses",
+            "resources": ["API Best Practices", "Error Handling"],
+            "completed": false
+          },
+          {
+            "id": "lesson5_2",
+            "title": "Authentication and JWT Tokens",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=25GS0MLT8JU",
+            "description": "User authentication and secure token storage",
+            "resources": ["Auth Patterns", "Security Best Practices"],
+            "completed": false
+          },
+          {
+            "id": "lesson5_3",
+            "title": "Offline Support and Sync",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=qwUrRr-6_8w",
+            "description": "Offline functionality and data synchronization",
+            "resources": ["Offline Strategies", "Sync Patterns"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section6",
+        "title": "Performance and Optimization",
+        "description": "Optimize app performance and user experience",
+        "duration": "1.5 weeks",
+        "lessons": [
+          {
+            "id": "lesson6_1",
+            "title": "Performance Optimization Techniques",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=yCqRLbK3L7I",
+            "description": "Memory management, rendering optimization, and profiling",
+            "resources": ["Performance Guide", "Profiling Tools"],
+            "completed": false
+          },
+          {
+            "id": "lesson6_2",
+            "title": "Push Notifications",
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=1ZmkJfm1g7M",
+            "description": "Implement push notifications for user engagement",
+            "resources": ["Notification Setup", "Firebase Integration"],
+            "completed": false
+          },
+          {
+            "id": "lesson6_3",
+            "title": "Animations and Gestures",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=eBDam21FpXY",
+            "description": "Smooth animations and gesture recognition",
+            "resources": ["Animation Libraries", "Gesture Patterns"],
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "section7",
+        "title": "Testing and Deployment",
+        "description": "Test and deploy your mobile applications",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "id": "lesson7_1",
+            "title": "Unit Testing and Component Testing",
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=IF4JKGf83bU",
+            "description": "Testing strategies for React Native apps",
+            "resources": ["Testing Frameworks", "Mock Strategies"],
+            "completed": false
+          },
+          {
+            "id": "lesson7_2",
+            "title": "Building for Production",
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=oBWBDaqNuWs",
+            "description": "Production builds and optimization",
+            "resources": ["Build Configuration", "Release Process"],
+            "completed": false
+          },
+          {
+            "id": "lesson7_3",
+            "title": "App Store Deployment",
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=LE4Mgkrf0_c",
+            "description": "Publishing to App Store and Google Play",
+            "resources": ["Deployment Guide", "Store Guidelines"],
+            "completed": false
+          },
+          {
+            "id": "project7_1",
+            "title": "Complete Social Media App",
+            "type": "project",
+            "duration": "10 hours",
+            "description": "Build a full-featured social media application",
+            "requirements": [
+              "User authentication and profiles",
+              "Photo/video sharing with camera integration",
+              "Real-time messaging and notifications",
+              "Social features (likes, comments, following)",
+              "Offline support and data sync",
+              "Production-ready build and testing"
+            ],
+            "completed": false
+          }
+        ]
+      }
+    ],
+    "finalAssessment": {
+      "title": "Mobile App Developer Certification",
+      "type": "capstone_project",
+      "duration": "2 weeks",
+      "description": "Build and deploy a complete mobile application",
+      "requirements": ["Original app concept", "Cross-platform functionality", "Store deployment"],
+      "completed": false
+    },
+    "certificate": {
+      "available": true,
+      "requirements": ["Complete all projects", "Deploy capstone app", "Code review session"],
+      "credential": "React Native Mobile Developer Certificate"
+    },
+    "createdAt": "2025-08-13T00:00:00.000Z",
+    "updatedAt": "2025-08-13T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Fundamentals",
+    "type": "video",
+    "category": "Programming",
+    "level": "Beginner",
+    "duration": "45 min",
+    "description": "Master JavaScript concepts with practical examples and hands-on coding",
+    "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+    "tags": ["JavaScript", "Programming", "Variables", "Functions"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 3,
+    "title": "HTML Basics Quiz",
+    "type": "quiz",
+    "category": "Web Development",
+    "level": "Beginner",
+    "duration": "15 min",
+    "description": "Test your HTML knowledge with interactive questions and immediate feedback",
+    "tags": ["HTML", "Assessment", "Beginner"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Tech Modern Language",
+            "Home Tool Markup Language",
+            "Hyperlink and Text Markup Language"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which HTML tag is used for the largest heading?",
+          "options": [
+            "<h6>",
+            "<h1>",
+            "<head>",
+            "<header>"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the correct HTML tag for creating a hyperlink?",
+          "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which attribute specifies the URL of the page the link goes to?",
+          "options": [
+            "src",
+            "href",
+            "url",
+            "link"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the correct HTML tag for inserting an image?",
+          "options": [
+            "<image>",
+            "<img>",
+            "<picture>",
+            "<src>"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 4,
+    "title": "React.js Complete Guide",
+    "type": "text",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "duration": "60 min",
+    "description": "Comprehensive guide to building modern web applications with React.js",
+    "content": "React.js is a powerful JavaScript library for building user interfaces, particularly single-page applications. Created by Facebook, React uses a component-based architecture that makes code reusable and maintainable. Key concepts include JSX (JavaScript XML) for writing component templates, state management for handling dynamic data, and props for passing data between components. React's virtual DOM efficiently updates the user interface by comparing changes and updating only what's necessary. Hooks like useState and useEffect provide functional components with state and lifecycle capabilities. Modern React development often includes tools like Create React App for quick setup, React Router for navigation, and state management libraries like Redux or Context API for complex applications.",
+    "tags": ["React", "JavaScript", "Components", "JSX", "Hooks"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 5,
+    "title": "CSS Grid and Flexbox Tutorial",
+    "type": "video",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "duration": "40 min",
+    "description": "Master modern CSS layout techniques with Grid and Flexbox",
+    "videoUrl": "https://www.youtube.com/watch?v=9zBsdzdE4sM",
+    "tags": ["CSS", "Layout", "Grid", "Flexbox", "Responsive"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 6,
+    "title": "JavaScript ES6+ Quiz",
+    "type": "quiz",
+    "category": "Programming",
+    "level": "Intermediate",
+    "duration": "20 min",
+    "description": "Test your knowledge of modern JavaScript features and syntax",
+    "tags": ["JavaScript", "ES6", "Arrow Functions", "Promises"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What is the correct syntax for an arrow function?",
+          "options": [
+            "const func = () => {}",
+            "const func = -> {}",
+            "const func = function() => {}",
+            "const func => () {}"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which method is used to handle asynchronous operations in JavaScript?",
+          "options": [
+            "setTimeout",
+            "Promise",
+            "callback",
+            "All of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What does the spread operator (...) do?",
+          "options": [
+            "Combines arrays",
+            "Spreads array elements",
+            "Clones objects",
+            "All of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which ES6 feature allows you to extract values from arrays or objects?",
+          "options": [
+            "Destructuring",
+            "Spreading",
+            "Mapping",
+            "Filtering"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 7,
+    "title": "Node.js Backend Development",
+    "type": "text",
+    "category": "Backend Development",
+    "level": "Intermediate",
+    "duration": "50 min",
+    "description": "Learn server-side JavaScript development with Node.js and Express",
+    "content": "Node.js enables JavaScript development on the server side, allowing developers to use the same language for both frontend and backend. Built on Chrome's V8 engine, Node.js uses an event-driven, non-blocking I/O model that makes it efficient for handling concurrent requests. Express.js is the most popular Node.js framework, providing a minimal and flexible web application framework with robust features for web and mobile applications. Key concepts include middleware for request processing, routing for handling different endpoints, and integration with databases like MongoDB or PostgreSQL. Node.js is ideal for building REST APIs, real-time applications with WebSockets, and microservices architectures. Package management through npm (Node Package Manager) provides access to thousands of open-source modules.",
+    "tags": ["Node.js", "Express", "Backend", "API", "Server"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 8,
+    "title": "Python Programming Basics",
+    "type": "video",
+    "category": "Programming",
+    "level": "Beginner",
+    "duration": "55 min",
+    "description": "Get started with Python programming language fundamentals",
+    "videoUrl": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+    "tags": ["Python", "Programming", "Variables", "Functions", "Loops"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 9,
+    "title": "Database Design Quiz",
+    "type": "quiz",
+    "category": "Database",
+    "level": "Intermediate",
+    "duration": "25 min",
+    "description": "Test your understanding of database concepts and SQL",
+    "tags": ["Database", "SQL", "Design", "Normalization"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "What does SQL stand for?",
+          "options": [
+            "Structured Query Language",
+            "Simple Query Language",
+            "Standard Query Language",
+            "System Query Language"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which SQL command is used to retrieve data from a database?",
+          "options": [
+            "GET",
+            "SELECT",
+            "RETRIEVE",
+            "FETCH"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is a primary key in a database table?",
+          "options": [
+            "The first column in a table",
+            "A unique identifier for each record",
+            "The most important column",
+            "A foreign key reference"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is database normalization?",
+          "options": [
+            "Making database faster",
+            "Organizing data to reduce redundancy",
+            "Creating backups",
+            "Encrypting data"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning Fundamentals",
+    "type": "text",
+    "category": "Data Science",
+    "level": "Advanced",
+    "duration": "70 min",
+    "description": "Introduction to machine learning concepts, algorithms, and applications",
+    "content": "Machine Learning (ML) is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. There are three main types: supervised learning (using labeled data), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning through rewards and penalties). Common algorithms include linear regression for prediction, decision trees for classification, clustering for grouping similar data, and neural networks for complex pattern recognition. The ML workflow involves data collection, preprocessing, feature selection, model training, evaluation, and deployment. Popular tools include Python libraries like scikit-learn, TensorFlow, and PyTorch. Applications span across industries: recommendation systems, image recognition, natural language processing, fraud detection, and autonomous vehicles. Understanding statistics, linear algebra, and programming is essential for effective machine learning implementation.",
+    "tags": ["Machine Learning", "AI", "Algorithms", "Data Science", "Python"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 11,
+    "title": "Advanced JavaScript Concepts",
+    "type": "video",
+    "category": "Programming",
+    "level": "Advanced",
+    "duration": "65 min",
+    "description": "Deep dive into closures, prototypes, async/await, and advanced patterns",
+    "videoUrl": "https://www.youtube.com/watch?v=2ZphE5HcQPQ",
+    "tags": ["JavaScript", "Closures", "Prototypes", "Async", "Advanced"],
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  },
+  {
+    "id": 12,
+    "title": "React Hooks Mastery Quiz",
+    "type": "quiz",
+    "category": "Web Development",
+    "level": "Advanced",
+    "duration": "30 min",
+    "description": "Advanced quiz on React Hooks including custom hooks and optimization",
+    "tags": ["React", "Hooks", "useState", "useEffect", "Custom Hooks"],
+    "quizData": {
+      "questions": [
+        {
+          "question": "Which hook is used for managing component state in functional components?",
+          "options": [
+            "useEffect",
+            "useState",
+            "useContext",
+            "useReducer"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "When does useEffect run by default?",
+          "options": [
+            "Only on mount",
+            "Only on unmount",
+            "After every render",
+            "Before every render"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How do you optimize a component to prevent unnecessary re-renders?",
+          "options": [
+            "useMemo",
+            "useCallback",
+            "React.memo",
+            "All of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What is the purpose of the dependency array in useEffect?",
+          "options": [
+            "To list all variables used in the effect",
+            "To control when the effect runs",
+            "To prevent memory leaks",
+            "To optimize performance"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    "createdAt": "2025-08-12T10:13:42.949Z"
+  }
+]
